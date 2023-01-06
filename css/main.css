@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*::before *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "arial" sans-serif;
+    background-color: navajowhite;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+li {
+    margin: 150px;
+    padding: 80px;
+    border: 2px solid #3E5D64;
+    text-align: center;
+    font-size: 20px;
+}
+
+li :hover {
+    transform: scale(1.1);
+    color: #3E5D64;
+}
+
+.list :hover {
+    overflow: hidden;
+    background-color: pink;
+    transition: all 0.10s linear;
+}
